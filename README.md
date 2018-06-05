@@ -6,9 +6,9 @@ Hypothetical Technical Requirement:
 
 Create a class that is able to read the next line from a text file and return a List of Strings that represent each tab-delimited token that it reads from the file. For example, given the following file contents:
 
-This<<tab>>is<<tab>a<<tab>test
+This<<tab>>is<<tab>>a<<tab>>test
  <br>
-red<<tab>green<<tab>blue
+red<<tab>>green<<tab>>blue
 
  The first call to a getNexLineTokens method of this new class would return a List of Strings that includes “This”, “is”, “a” and “test”.  The second call would return “red”, “green” and “blue”.  A third call should return null.
 
